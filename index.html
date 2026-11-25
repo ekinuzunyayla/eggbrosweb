@@ -1,9 +1,191 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eggbros Together</title>
-<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.55;color:#222;background:#fff}</style>
-</head><body>
-<h1>Eggbros Together</h1>
-<p>A co-op arena roguelite by Mindoria Studio.</p>
-<p><a href="privacy/">Privacy Policy / Gizlilik Politikası</a></p>
-</body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eggbros Together – co-op arena roguelite</title>
+<meta name="title-en" content="Eggbros Together – co-op arena roguelite">
+<meta name="title-tr" content="Eggbros Together – co-op arena roguelite oyunu">
+<meta name="description" content="Gear up your egg hero, team up with a friend and survive 20 waves of monsters on the march to the Orc Capital. For iPhone, Android, PC and Mac.">
+<meta name="theme-color" content="#1d140f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Eggbros Together">
+<meta property="og:description" content="A co-op arena roguelite: one egg, six weapons, twenty waves, and a friend if you have one.">
+<meta property="og:image" content="https://ekinuzunyayla.github.io/eggbrosweb/assets/img/og.jpg">
+<meta property="og:url" content="https://ekinuzunyayla.github.io/eggbrosweb/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="preload" href="assets/fonts/LuckiestGuy-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/lang.js"></script>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="tr">İçeriğe geç</span></a>
+
+<header class="bar">
+	<a class="bar__home" href="./" aria-label="Eggbros Together"><img src="assets/img/icon-180.png" alt="" width="36" height="36"></a>
+	<nav>
+		<a class="hide-sm" href="#play"><span lang="en">The game</span><span lang="tr">Oyun</span></a>
+		<a class="hide-sm" href="#coop">Co-op</a>
+		<a href="#help"><span lang="en">Help</span><span lang="tr">Yardım</span></a>
+		<button class="lang" type="button" data-lang-toggle><span lang="en">Türkçe</span><span lang="tr">English</span></button>
+	</nav>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+	<div class="hero__inner">
+		<h1 id="hero-title" style="margin:0"><img class="hero__logo" src="assets/img/logo.png" alt="Eggbros Together" width="900" height="326"></h1>
+		<p class="hero__pitch">
+			<span lang="en">The monsters burned Egg Land. Gear up your egg, grab a friend and fight your way to the Orc Capital.</span>
+			<span lang="tr">Canavarlar Yumurta Diyarı'nı yaktı. Yumurtanı donat, bir arkadaşını yanına al ve Ork başkentine kadar savaş.</span>
+		</p>
+		<div class="stores">
+			<a class="store store--live" href="https://play.google.com/apps/testing/com.mindoria.eggbrostogether">
+				<small><span lang="en">Android test version</span><span lang="tr">Android test sürümü</span></small>
+				<strong><span lang="en">Join on Google Play</span><span lang="tr">Google Play'de katıl</span></strong>
+			</a>
+			<span class="store">
+				<small><span lang="en">iPhone and iPad</span><span lang="tr">iPhone ve iPad</span></small>
+				<strong><span lang="en">App Store soon</span><span lang="tr">App Store'da yakında</span></strong>
+			</span>
+			<span class="store">
+				<small><span lang="en">PC and Mac</span><span lang="tr">PC ve Mac</span></small>
+				<strong><span lang="en">Steam soon</span><span lang="tr">Steam'de yakında</span></strong>
+			</span>
+		</div>
+	</div>
+</section>
+
+<section class="story" aria-labelledby="story-title">
+	<div class="wrap story__grid">
+		<figure class="story__art" style="margin:0">
+			<img src="assets/img/raid.jpg" alt="An old egg sage and a crowd of little eggs face an orc warlord and his goblins, who have taken the great nest." width="1376" height="768" loading="lazy">
+		</figure>
+		<div>
+			<h2 id="story-title" class="h2"><span lang="en">The nest has fallen</span><span lang="tr">Yuva düştü</span></h2>
+			<p class="lede">
+				<span lang="en">An orc warlord and his horde took the great nest. A handful of unlikely heroes set out for his capital: a samurai, a gunslinger, a ghost, a wizard and dozens more. Every one of them is an egg.</span>
+				<span lang="tr">Bir ork savaş lordu ve ordusu büyük yuvayı ele geçirdi. Bir avuç beklenmedik kahraman onun başkentine doğru yola çıkıyor: bir samuray, bir silahşor, bir hayalet, bir büyücü ve onlarca kahraman daha. Hepsi birer yumurta.</span>
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="road" id="play" aria-labelledby="road-title">
+	<div class="wrap">
+		<div class="road__head">
+			<h2 id="road-title" class="h2"><span lang="en">How a run goes</span><span lang="tr">Bir run nasıl geçer</span></h2>
+			<p class="lede"><span lang="en">You only move: your weapons aim and fire on their own. Twenty waves stand between you and the capital.</span><span lang="tr">Sen yalnızca hareket edersin, silahların kendisi nişan alıp ateş eder. Seninle başkent arasında yirmi dalga var.</span></p>
+		</div>
+		<ol>
+			<li class="step">
+				<span class="step__mark" aria-hidden="true">1</span>
+				<div class="step__body">
+					<div>
+						<h3><span lang="en">Pick a hero</span><span lang="tr">Kahramanını seç</span></h3>
+						<p><span lang="en"><strong>32 heroes</strong>, each with a rule that bends the game: one attacks faster, one hits harder with a whole class of weapons, one can't use melee weapons at all. Choose a starting weapon and set out.</span><span lang="tr"><strong>32 kahraman</strong>, her birinin oyunu büken bir kuralı var: biri daha hızlı saldırır, biri bir silah sınıfının hepsiyle daha sert vurur, biri yakın dövüş silahı hiç kullanamaz. Başlangıç silahını seç ve yola çık.</span></p>
+					</div>
+					<figure class="shot"><img src="assets/img/shot-heroes.jpg" alt="The hero selection screen with Bladehatch, a samurai egg, standing on a tree stump." width="1600" height="900" loading="lazy"></figure>
+				</div>
+			</li>
+			<li class="step">
+				<span class="step__mark" aria-hidden="true">2</span>
+				<div class="step__body">
+					<div>
+						<h3><span lang="en">Survive the wave</span><span lang="tr">Dalgadan sağ çık</span></h3>
+						<p><span lang="en">Goblins, wargs, trolls and orc berserkers pour in. Read their attacks, stay out of the way and scoop up the shells they drop. Shells are your money and your experience.</span><span lang="tr">Goblinler, warglar, troller ve ork berserkerlar akın eder. Saldırılarını oku, yollarından çekil ve düşürdükleri kabukları topla. Kabuk hem paran hem tecrüben.</span></p>
+					</div>
+					<figure class="shot"><img src="assets/img/shot-wave.jpg" alt="A samurai egg with floating blades in the middle of a horde of green goblins." width="1600" height="900" loading="lazy"></figure>
+				</div>
+			</li>
+			<li class="step">
+				<span class="step__mark" aria-hidden="true">3</span>
+				<div class="step__body">
+					<div>
+						<h3><span lang="en">Shop at the Caravan Market</span><span lang="tr">Kervan Pazarı'nda alışveriş yap</span></h3>
+						<p><span lang="en">Level up, then spend your shells. Carry up to <strong>six weapons</strong>, merge two copies into a stronger one, and pick from <strong>170 items</strong> that change how your build plays.</span><span lang="tr">Seviye atla, sonra kabuklarını harca. En fazla <strong>altı silah</strong> taşı, iki kopyayı birleştirip daha güçlüsünü yap ve build'ini değiştiren <strong>170 eşya</strong> arasından seç.</span></p>
+					</div>
+					<figure class="shot"><img src="assets/img/shot-shop.jpg" alt="The Caravan Market with four offers: two gauntlets, a shell charm and a pair of dice." width="1600" height="900" loading="lazy"></figure>
+				</div>
+			</li>
+			<li class="step step--boss">
+				<span class="step__mark" aria-hidden="true">20</span>
+				<div class="step__body">
+					<div>
+						<h3><span lang="en">Storm the Orc Capital</span><span lang="tr">Ork başkentine dal</span></h3>
+						<p><span lang="en">At the twentieth wave a boss waits at the gate: the Orc Seer and its rune fire, or the Orc Huntmaster and its hounds. Beat it, then raise the danger level, where elite orcs join the waves.</span><span lang="tr">Yirminci dalgada kapıda bir boss bekler: rün ateşiyle Ork Kâhini ya da tazılarıyla Ork Avcıbaşı. Onu yen, sonra tehlike seviyesini yükselt; orada dalgalara elit orklar da katılır.</span></p>
+					</div>
+					<figure class="shot"><img src="assets/img/forge.jpg" alt="An orc shaman and an armoured orc warlord plotting in a forge." width="1376" height="768" loading="lazy"></figure>
+				</div>
+			</li>
+		</ol>
+	</div>
+</section>
+
+<section class="coop" id="coop" aria-labelledby="coop-title">
+	<div class="wrap coop__grid">
+		<div>
+			<h2 id="coop-title" class="h2"><span lang="en">Better with a friend</span><span lang="tr">Arkadaşla daha güzel</span></h2>
+			<p class="lede"><span lang="en">Online co-op for two, on the same run from the first wave to the last.</span><span lang="tr">İki kişilik online co-op: ilk dalgadan son dalgaya aynı run'da.</span></p>
+			<ul>
+				<li><span lang="en">Phone and computer play together.</span><span lang="tr">Telefon ve bilgisayar birlikte oynar.</span></li>
+				<li><span lang="en">No account needed: one of you hosts, the other types the code.</span><span lang="tr">Hesap gerekmez: biriniz oyunu kurar, diğeri kodu yazar.</span></li>
+				<li><span lang="en">Each of you levels up and shops for your own egg.</span><span lang="tr">Herkes kendi yumurtası için seviye atlar ve alışveriş yapar.</span></li>
+				<li><span lang="en">On your own, the whole game works offline.</span><span lang="tr">Tek başına oynarken oyunun tamamı çevrimdışı çalışır.</span></li>
+			</ul>
+		</div>
+		<figure class="shot"><img src="assets/img/shot-coop.jpg" alt="Two eggs fighting back to back in a field of goblins." width="1600" height="900" loading="lazy"></figure>
+	</div>
+</section>
+
+<section class="help" id="help" aria-labelledby="help-title">
+	<div class="wrap help__grid">
+		<div>
+			<h2 id="help-title" class="h2"><span lang="en">Help and support</span><span lang="tr">Yardım ve destek</span></h2>
+			<p><span lang="en">Found a bug or lost progress? The quickest way to tell us is in the game: <strong>Settings › Support › Report a bug / idea</strong>. Or email us with your device model and what happened. We usually reply within two working days.</span><span lang="tr">Bir hata mı buldun, ilerlemen mi kayboldu? Bize en hızlı oyundan ulaşırsın: <strong>Ayarlar › Destek › Hata bildir / Öneri</strong>. Ya da cihaz modelini ve ne olduğunu yazıp e-posta gönder. Genellikle iki iş günü içinde yanıtlarız.</span></p>
+			<a class="mail" href="mailto:ekinuzunyayla.dev@gmail.com?subject=Eggbros%20Together">ekinuzunyayla.dev@gmail.com</a>
+		</div>
+		<div>
+			<details>
+				<summary><span lang="en">How do I play co-op?</span><span lang="tr">Co-op nasıl oynanır?</span></summary>
+				<p><span lang="en">One player taps Co-op, then Host a game, and tells the code to a friend. The friend taps Co-op, enters the code and taps Join. Both of you need an internet connection.</span><span lang="tr">Bir oyuncu Co-op'a, sonra Oyun kur'a basar ve kodu arkadaşına söyler. Arkadaşı Co-op'a girer, kodu yazar ve Katıl'a basar. İkinizin de internete bağlı olması gerekir.</span></p>
+			</details>
+			<details>
+				<summary><span lang="en">Where is my progress saved?</span><span lang="tr">İlerlemem nereye kaydediliyor?</span></summary>
+				<p><span lang="en">On your device, between waves, so you can close the game and continue the run later. Uninstalling the game deletes it.</span><span lang="tr">Cihazına, dalga aralarında. Oyunu kapatıp run'a sonra devam edebilirsin. Oyunu silersen kayıt da silinir.</span></p>
+			</details>
+			<details>
+				<summary><span lang="en">Are there ads?</span><span lang="tr">Reklam var mı?</span></summary>
+				<p><span lang="en">The free mobile version shows an ad after a run ends: never during play, and not in your first three runs. Once per run you can watch an optional ad to retry the wave you lost. No banners, no ads when the game opens. The PC and Mac version has no ads.</span><span lang="tr">Ücretsiz mobil sürüm run bittikten sonra bir reklam gösterir: oyun sırasında asla, ilk üç run'da hiç. Run başına bir kez, istersen reklam izleyip kaybettiğin dalgayı tekrar deneyebilirsin. Banner ve açılış reklamı yoktur. PC ve Mac sürümünde reklam yoktur.</span></p>
+			</details>
+			<details>
+				<summary><span lang="en">Can I turn off usage data or personalised ads?</span><span lang="tr">Kullanım verisini ya da kişiselleştirilmiş reklamı kapatabilir miyim?</span></summary>
+				<p><span lang="en">Yes. Usage data: Settings › Support › Send usage data. Ads: Settings › Support › Privacy options, where your region has one. The <a href="privacy/">privacy policy</a> explains both.</span><span lang="tr">Evet. Kullanım verisi: Ayarlar › Destek › Kullanım verisi gönder. Reklamlar: bölgende varsa Ayarlar › Destek › Gizlilik seçenekleri. İkisini de <a href="privacy/">gizlilik politikası</a> anlatır.</span></p>
+			</details>
+			<details>
+				<summary><span lang="en">How do I delete my data?</span><span lang="tr">Verilerimi nasıl sildiririm?</span></summary>
+				<p><span lang="en">See <a href="privacy/#delete">Data retention and deletion</a> in the privacy policy.</span><span lang="tr">Gizlilik politikasındaki <a href="privacy/#delete">Saklama ve silme</a> bölümüne bak.</span></p>
+			</details>
+			<details>
+				<summary><span lang="en">Which languages does the game support?</span><span lang="tr">Oyun hangi dilleri destekliyor?</span></summary>
+				<p><span lang="en">English, Turkish and German, with more on the way.</span><span lang="tr">İngilizce, Türkçe ve Almanca; yenileri yolda.</span></p>
+			</details>
+		</div>
+	</div>
+</section>
+</main>
+
+<footer class="foot">
+	<div class="wrap foot__row">
+		<p>© 2026 Mindoria Studio</p>
+		<nav aria-label="Legal">
+			<a href="privacy/"><span lang="en">Privacy policy</span><span lang="tr">Gizlilik politikası</span></a>
+			<a href="terms/"><span lang="en">Terms of use</span><span lang="tr">Kullanım koşulları</span></a>
+			<a href="mailto:ekinuzunyayla.dev@gmail.com"><span lang="en">Contact</span><span lang="tr">İletişim</span></a>
+		</nav>
+	</div>
+</footer>
+</body>
+</html>
